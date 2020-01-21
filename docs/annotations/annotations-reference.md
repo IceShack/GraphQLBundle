@@ -474,6 +474,7 @@ Optional attributes:
 
 -   **name** : The GraphQL name of the type (default to the class name without namespace)
 -   **interfaces** : An array of GraphQL interface this type herits from
+-   **inherits** : An array of GraphQL types this type inherits from
 -   **isRelay** : Set to true to have a Relay compatible type (ie. A `clientMutationId` will be added).
 -   **builders**: An array of `@FieldsBuilder` annotations
 
